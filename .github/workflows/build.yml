@@ -23,7 +23,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --windowed --name="VideoGifMaker" app.py
+          pyinstaller --windowed --name="VideoGifMaker" gif_maker_in_out.py
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
